@@ -1,3 +1,5 @@
+package calc;
+
 public class ArithmeticCalculator {
     public static int a;
     public static int b;

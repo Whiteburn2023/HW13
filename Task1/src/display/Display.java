@@ -1,3 +1,5 @@
+package display;
+
 public class Display {
     private final int displaySize;
     private final DisplayType displayType;
@@ -23,7 +25,7 @@ public class Display {
 
     @Override
     public String toString() {
-        return "Display{" +
+        return "display.Display{" +
                 "displaySize=" + displaySize +
                 ", displayType=" + displayType +
                 ", weight=" + weight +

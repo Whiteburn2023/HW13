@@ -1,3 +1,5 @@
+package keyboard;
+
 public class Keyboard {
     private final KeyboardType keyboardType;
     private final KeyboardLight keyboardLight;
@@ -24,7 +26,7 @@ public class Keyboard {
 
     @Override
     public String toString() {
-        return "Keyboard{" +
+        return "keyboard.Keyboard{" +
                 "keyboardType=" + keyboardType +
                 ", keyboardLight=" + keyboardLight +
                 ", weight=" + weight +

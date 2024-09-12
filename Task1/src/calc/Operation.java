@@ -1,3 +1,5 @@
+package calc;
+
 public enum Operation {
 
     ADD("Сумма: " + (ArithmeticCalculator.a + ArithmeticCalculator.b)),

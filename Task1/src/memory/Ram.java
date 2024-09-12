@@ -1,3 +1,5 @@
+package memory;
+
 public class Ram {
     private final RamType ramType;
     private final int ramCapacity;
@@ -23,7 +25,7 @@ public class Ram {
 
     @Override
     public String toString() {
-        return "Ram{" +
+        return "memory.Ram{" +
                 "ramType=" + ramType +
                 ", ramCapacity=" + ramCapacity +
                 ", weight=" + weight +

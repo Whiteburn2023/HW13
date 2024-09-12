@@ -1,3 +1,5 @@
+package harddisk;
+
 public class Disk {
     private final DiskStorageType diskStorageType;
     private final double diskCapacity;
@@ -23,7 +25,7 @@ public class Disk {
 
     @Override
     public String toString() {
-        return "Disk{" +
+        return "harddisk.Disk{" +
                 "diskStorageType=" + diskStorageType +
                 ", diskCapacity=" + diskCapacity +
                 ", weight=" + weight +

@@ -1,8 +1,10 @@
+package processor;
+
 public class Proc {
-    private final ProcFrq procFrq;
-    private final ProcCore procCore;
-    private final ProcBrend procBrend;
-    private final double weight;
+    private ProcFrq procFrq;
+    private ProcCore procCore;
+    private ProcBrend procBrend;
+    private double weight;
 
     public Proc(ProcFrq procFrq, ProcCore procCore, ProcBrend procBrend, double weight) {
         this.procFrq = procFrq;
@@ -29,7 +31,7 @@ public class Proc {
 
     @Override
     public String toString() {
-        return "Proc{" +
+        return "processor.Proc{" +
                 "procFrq=" + procFrq +
                 ", procCore=" + procCore +
                 ", procBrend=" + procBrend +
